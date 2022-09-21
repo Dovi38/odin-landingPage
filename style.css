@@ -55,6 +55,22 @@ a {
   font-weight: 900;
 }
 
+.introduction-left p {
+  color: #e5e7eb;
+  padding: 10px 0;
+  color: 18px;
+}
+
+.introduction-right {
+  min-width: 300px;
+  height: 150px;
+  background-color: grey;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 button {
   padding: 5px 20px;
   background-color: #3882f6;
@@ -62,6 +78,45 @@ button {
   border-radius: 5px;
   color: #f9faf8;
 }
+
+.cards {
+  margin: 50px 20px;
+}
+
+.cards h2 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.item {
+  max-width: 220px;
+  font-size: 18px;
+}
+
+.item img {
+  width: 200px;
+  height: 200px;
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+}
+
+.item p {
+  display: inline-block;
+  padding: 5px;
+}
+
+
 
 .content {
   background: #e5e7eb;
